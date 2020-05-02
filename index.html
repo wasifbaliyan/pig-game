@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:100,300,600"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link type="text/css" rel="stylesheet" href="css/style.css" />
+
+    <title>Pig Game</title>
+  </head>
+
+  <body>
+    <main class="container">
+      <section class="player-0">
+        <div class="player-0-name player-name">Player 1</div>
+        <div class="player-0-global-score global-score">0</div>
+        <div class="current">
+          <div class="current-caption">Current</div>
+          <div class="player-0-current-score current-score">0</div>
+        </div>
+      </section>
+      <section class="section-btn">
+        <button class="new-game btn">
+          <ion-icon name="add-circle-outline"></ion-icon> New Game
+        </button>
+        <figure class="dice-image">
+          <img class="dice-pic" src="./images/dice-1.png" alt="dice pics" />
+        </figure>
+        <button class="roll-dice btn">Roll Dice</button>
+        <button class="hold-dice btn">Hold Dice</button>
+      </section>
+      <section class="player-1">
+        <div class="player-1-name player-name">Player 2</div>
+        <div class="player-1-global-score global-score">0</div>
+        <div class="current">
+          <div class="current-caption">Current</div>
+
+          <div class="player-1-current-score current-score">0</div>
+        </div>
+      </section>
+    </main>
+    <script src="./js/app.js"></script>
+  </body>
+</html>
