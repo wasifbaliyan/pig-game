@@ -77,9 +77,11 @@ img {
   text-transform: uppercase;
   border: none;
   outline: none;
-  font-weight: 300;
+  font-weight: 100;
+  font-size: 1.6rem;
   padding: 5px;
   cursor: pointer;
+  background-color: #fff;
 }
 
 .dice-image {
@@ -96,4 +98,13 @@ img {
 
 .current-score {
   font-size: 3rem;
+}
+
+.active {
+  color: green;
+}
+
+button i {
+  color: #eb4d4d;
+  padding-right: 4px;
 }
