@@ -56,6 +56,7 @@ document.querySelector(".new-game").addEventListener("click", () => {
   scores[0] = 0;
   scores[1] = 0;
   activePlayer = 0;
+  isPlaying = true;
   document.querySelector(".dice-pic").style.display = "none";
   document.querySelector(`.player-0-name`).classList.add("active");
   document.querySelector(`.player-1-name`).classList.remove("active");
